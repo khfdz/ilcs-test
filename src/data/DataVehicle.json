@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Toyota Avanza",
+      "type": "MPV",
+      "size": "medium"
+    },
+    {
+      "name": "Honda CRV",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Daihatsu Ayla",
+      "type": "Hatchback",
+      "size": "small"
+    },
+    {
+      "name": "Nissan X-Trail",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Suzuki Ertiga",
+      "type": "MPV",
+      "size": "medium"
+    },
+    {
+      "name": "Toyota Fortuner",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Honda Jazz",
+      "type": "Hatchback",
+      "size": "small"
+    },
+    {
+      "name": "Mitsubishi Pajero",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Kia Picanto",
+      "type": "Hatchback",
+      "size": "small"
+    },
+    {
+      "name": "BMW X5",
+      "type": "SUV",
+      "size": "large"
+    }
+  ]
+  

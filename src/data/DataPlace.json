@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Parkiran Monas",
+    "position": [-6.216160, 106.807665],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 10,
+    "parkedVehicles": {
+      "small": 3,
+      "medium": 5,
+      "large": 2
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 2,
+    "name": "Parkiran Sudirman",
+    "position": [-6.217405, 106.807641],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 12,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 6,
+      "large": 6
+    },
+    "available": false,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 70000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 3,
+    "name": "Parkiran Senayan",
+    "position": [-6.219642, 106.807629],
+    "vehicleSizes": ["large"],
+    "capacity": 15,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 0,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 0,
+      "large": 100000
+    }
+  },
+  {
+    "id": 4,
+    "name": "Parkiran Thamrin",
+    "position": [-6.215475, 106.804066],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 5,
+      "medium": 10,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "Parkiran Kemang",
+    "position": [-6.220540585367495, 106.8076343317337],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 6,
+    "name": "Parkiran Kota Tua",
+    "position": [-6.215898865838504, 106.80521616097892],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 18,
+    "parkedVehicles": {
+      "small": 8,
+      "medium": 7,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "Parkiran Blok M",
+    "position": [-6.216157818162022, 106.80663929485881],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 12,
+      "medium": 15,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 8,
+    "name": "Parkiran Tanah Abang",
+    "position": [-6.216567625675366, 106.80654267812511],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 10,
+    "parkedVehicles": {
+      "small": 5,
+      "medium": 5,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 0
+    }
+  }
+]
