@@ -48,6 +48,56 @@
       "name": "BMW X5",
       "type": "SUV",
       "size": "large"
+    },
+    {
+      "name": "Toyota Innova",
+      "type": "MPV",
+      "size": "medium"
+    },
+    {
+      "name": "Honda HR-V",
+      "type": "SUV",
+      "size": "medium"
+    },
+    {
+      "name": "Hyundai Ioniq 5",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Mazda CX-5",
+      "type": "SUV",
+      "size": "medium"
+    },
+    {
+      "name": "Suzuki Swift",
+      "type": "Hatchback",
+      "size": "small"
+    },
+    {
+      "name": "Ford Ranger",
+      "type": "SUV",
+      "size": "large"
+    },
+    {
+      "name": "Nissan Juke",
+      "type": "SUV",
+      "size": "small"
+    },
+    {
+      "name": "Kia Seltos",
+      "type": "SUV",
+      "size": "medium"
+    },
+    {
+      "name": "Mitsubishi Outlander",
+      "type": "SUV",
+      "size": "medium"
+    },
+    {
+      "name": "Chevrolet Trax",
+      "type": "SUV",
+      "size": "small"
     }
   ]
   

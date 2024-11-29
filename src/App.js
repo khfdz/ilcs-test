@@ -3,15 +3,14 @@ import Page1 from "./pages/Page1";
 import BookingPage from "./pages/BookingPage";
 import BiodataPage from "./pages/BiodataPage";
 import ConfirmationPage from "./pages/ConfirmationPage";
-
+import "./App.css";
 
 const App = () => {
-
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Page1 />} />
-        
+
         <Route path="/booking/:id" element={<BookingPage />} />
 
         <Route path="/biodata" element={<BiodataPage />} />
@@ -23,5 +22,3 @@ const App = () => {
 };
 
 export default App;
-
-

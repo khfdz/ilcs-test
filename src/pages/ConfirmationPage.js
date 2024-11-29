@@ -1,5 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2';
+import '@sweetalert2/theme-bootstrap-4/bootstrap-4.min.css';
 
 const ConfirmationPage = () => {
   const location = useLocation();
@@ -18,30 +20,41 @@ const ConfirmationPage = () => {
     name,
     phone,
     email,
+    plateNumber,
   } = location.state || {};
 
-  const formattedEntryDate = new Date(entryDate).toLocaleDateString();
-  const formattedExitDate = new Date(exitDate).toLocaleDateString();
+  const formattedEntryDate = new Date(entryDate).toLocaleDateString("id-ID", { day: '2-digit', month: 'long', year: 'numeric' });
+  const formattedExitDate = new Date(exitDate).toLocaleDateString("id-ID", { day: '2-digit', month: 'long', year: 'numeric' });
+
+  const entry = new Date(entryDate);
+  const exit = new Date(exitDate);
+  const duration = Math.ceil((exit - entry) / (1000 * 60 * 60 * 24));
 
   const handleConfirm = () => {
-    navigate("/", {
-      state: {
-        brand,
-        type,
-        vehicleSize,
-        entryDate,
-        entryTime,
-        exitDate,
-        exitTime,
-        totalPrice,
-        locationName,
-        name,
-        phone,
-        email,
-      },
+    Swal.fire({
+      title: 'Pemesanan Berhasil!',
+      text: 'Terima kasih sudah melakukan pemesanan.',
+      icon: 'success',
+      confirmButtonText: 'OK',
+    }).then(() => {
+      navigate("/", {
+        state: {
+          brand,
+          type,
+          vehicleSize,
+          entryDate,
+          entryTime,
+          exitDate,
+          exitTime,
+          totalPrice,
+          locationName,
+          name,
+          phone,
+          email,
+          plateNumber,
+        },
+      });
     });
-
-    alert("Pemesanan Berhasil!");
   };
 
   return (
@@ -70,14 +83,12 @@ const ConfirmationPage = () => {
             </p>
             <p className="text-gray-600">
               <strong>Jenis:</strong> {type}
+            <p className="text-gray-600">
+              <strong>No. Plat:</strong> {plateNumber}
+            </p>
             </p>
             <p className="text-gray-600">
-              <strong>Ukuran Kendaraan:</strong>{" "}
-              {vehicleSize === "small"
-                ? "Kecil"
-                : vehicleSize === "medium"
-                ? "Sedang"
-                : "Besar"}
+              <strong>Ukuran Kendaraan:</strong> {vehicleSize === "small" ? "Kecil" : vehicleSize === "medium" ? "Sedang" : "Besar"}
             </p>
           </div>
 
@@ -88,6 +99,9 @@ const ConfirmationPage = () => {
             </p>
             <p className="text-gray-600">
               <strong>Tanggal Keluar:</strong> {formattedExitDate} {exitTime}
+            </p>
+            <p className="text-gray-600">
+              <strong>Lama Parkir:</strong> {duration} Hari
             </p>
           </div>
 
@@ -103,16 +117,16 @@ const ConfirmationPage = () => {
 
           <div className="mt-4 flex gap-4">
             <button
-              className="w-full bg-green-500 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded"
-              onClick={handleConfirm}
-            >
-              Konfirmasi Pemesanan
-            </button>
-            <button
               className="w-full bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded"
               onClick={() => navigate("/")}
             >
               Batalkan Pemesanan
+            </button>
+            <button
+              className="w-full bg-yellow-500 hover:bg-yellow-700 text-white font-semibold py-2 px-4 rounded"
+              onClick={handleConfirm}
+            >
+              Konfirmasi Pemesanan
             </button>
           </div>
         </div>

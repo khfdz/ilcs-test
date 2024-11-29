@@ -142,5 +142,491 @@
       "medium": 70000,
       "large": 0
     }
+  },
+  {
+    "id": 9,
+    "name": "Parkiran Tebet",
+    "position": [-6.227654, 106.847312],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 15,
+    "parkedVehicles": {
+      "small": 7,
+      "medium": 5,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 60000,
+      "large": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "Parkiran Kuningan",
+    "position": [-6.225231, 106.832789],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 70000,
+      "large": 110000
+    }
+  },
+  {
+    "id": 11,
+    "name": "Parkiran Setiabudi",
+    "position": [-6.214876, 106.822231],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 8,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 70000,
+      "large": 120000
+    }
+  },
+  {
+    "id": 12,
+    "name": "Parkiran Cikini",
+    "position": [-6.201542, 106.821876],
+    "vehicleSizes": ["small", "large"],
+    "capacity": 12,
+    "parkedVehicles": {
+      "small": 5,
+      "medium": 0,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 0,
+      "large": 90000
+    }
+  },
+  {
+    "id": 13,
+    "name": "Parkiran Pancoran",
+    "position": [-6.234567, 106.840123],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 15,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 75000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 14,
+    "name": "Parkiran Bandung Square",
+    "position": [-6.914744, 107.609810],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 8,
+      "medium": 6,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 60000,
+      "large": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "Parkiran Malioboro",
+    "position": [-7.795580, 110.369490],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 18,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 10,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 70000,
+      "large": 90000
+    }
+  },
+  {
+    "id": 16,
+    "name": "Parkiran Surabaya Center",
+    "position": [-7.257472, 112.752088],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 8,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 75000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 17,
+    "name": "Parkiran Bali Seminyak",
+    "position": [-8.691050, 115.168440],
+    "vehicleSizes": ["small", "large"],
+    "capacity": 15,
+    "parkedVehicles": {
+      "small": 5,
+      "medium": 0,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 0,
+      "large": 85000
+    }
+  },
+  {
+    "id": 18,
+    "name": "Parkiran Medan Fair",
+    "position": [3.589665, 98.673806],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 12,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 75000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 19,
+    "name": "Parkiran Palembang Square",
+    "position": [-2.976073, 104.775430],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 8,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 60000,
+      "large": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "Parkiran Makassar Waterfront",
+    "position": [-5.147665, 119.432732],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 12,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 75000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 21,
+    "name": "Parkiran Banjarmasin Plaza",
+    "position": [-3.319437, 114.590755],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 10,
+      "large": 6
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 65000,
+      "large": 85000
+    }
+  },
+  {
+    "id": 22,
+    "name": "Parkiran Balikpapan Center",
+    "position": [-1.267914, 116.831239],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 28,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 12,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 70000,
+      "large": 90000
+    }
+  },
+  {
+    "id": 23,
+    "name": "Parkiran Lombok Senggigi",
+    "position": [-8.490538, 116.046843],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 18,
+    "parkedVehicles": {
+      "small": 6,
+      "medium": 5,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 65000,
+      "large": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "Parkiran Jayapura Mall",
+    "position": [-2.533712, 140.718132],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 15,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 8,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 70000,
+      "large": 95000
+    }
+  },
+  {
+    "id": 25,
+    "name": "Parkiran Ambon City Center",
+    "position": [-3.695661, 128.182106],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 7,
+      "medium": 8,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 65000,
+      "large": 85000
+    }
+  },
+  {
+    "id": 26,
+    "name": "Parkiran Samarinda Plaza",
+    "position": [-0.502106, 117.153709],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 8,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 65000,
+      "large": 85000
+    }
+  },
+  {
+    "id": 27,
+    "name": "Parkiran Malang Square",
+    "position": [-7.982777, 112.630919],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 8,
+      "medium": 6,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 60000,
+      "large": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "Parkiran Yogyakarta Tugu",
+    "position": [-7.793141, 110.364895],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 12,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 70000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 29,
+    "name": "Parkiran Denpasar Central",
+    "position": [-8.670458, 115.212629],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 18,
+    "parkedVehicles": {
+      "small": 6,
+      "medium": 5,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 65000,
+      "large": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "Parkiran Kupang Beachfront",
+    "position": [-10.178761, 123.584157],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 7,
+      "medium": 8,
+      "large": 3
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 65000,
+      "large": 85000
+    }
+  },
+  {
+    "id": 31,
+    "name": "Parkiran Banda Aceh Center",
+    "position": [5.554275, 95.323753],
+    "vehicleSizes": ["small", "medium"],
+    "capacity": 18,
+    "parkedVehicles": {
+      "small": 5,
+      "medium": 7,
+      "large": 0
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 40000,
+      "medium": 60000,
+      "large": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "Parkiran Pontianak Waterfront",
+    "position": [-0.033063, 109.340860],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 25,
+    "parkedVehicles": {
+      "small": 10,
+      "medium": 9,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 70000,
+      "large": 95000
+    }
+  },
+  {
+    "id": 33,
+    "name": "Parkiran Manado Boulevard",
+    "position": [1.474830, 124.842079],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 30,
+    "parkedVehicles": {
+      "small": 12,
+      "medium": 10,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 50000,
+      "medium": 75000,
+      "large": 100000
+    }
+  },
+  {
+    "id": 34,
+    "name": "Parkiran Pekanbaru Square",
+    "position": [0.533865, 101.450076],
+    "vehicleSizes": ["medium", "large"],
+    "capacity": 15,
+    "parkedVehicles": {
+      "small": 0,
+      "medium": 7,
+      "large": 5
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 0,
+      "medium": 70000,
+      "large": 95000
+    }
+  },
+  {
+    "id": 35,
+    "name": "Parkiran Palu City Center",
+    "position": [-0.897138, 119.870703],
+    "vehicleSizes": ["small", "medium", "large"],
+    "capacity": 20,
+    "parkedVehicles": {
+      "small": 8,
+      "medium": 7,
+      "large": 4
+    },
+    "available": true,
+    "pricePerDay": {
+      "small": 45000,
+      "medium": 70000,
+      "large": 95000
+    }
   }
 ]
